@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0.0" client="site" method="upgrade">
+    <name>Тест на подкаблучника</name>
+    <author>Эрик Королев</author>
+    <version>1.0.0</version>
+    <description>Модуль, который отображает игру в форме вопросов-ответов для посетителей сайта.</description>
+    <files>
+        <filename>mod_game.xml</filename>
+        <filename module="mod_game">mod_game.php</filename>
+        <filename>index.html</filename>
+		<filename>js/questions.js</filename>
+		<filename>js/start.js</filename>
+		<filename>js/select.js</filename>
+		<filename>js/batton.js</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>
